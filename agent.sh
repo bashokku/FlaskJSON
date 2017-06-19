@@ -1,12 +1,5 @@
 #!/bin/bash
-echo "from master"
-echo "from master"
-echo "from master"
-echo "from master"
-echo "from master"
-echo "from master"
-echo "from master"
-echo "from master"
+echo "from dev1"
 
 docker build --no-cache --tag bashokku/flaskapp:latest --file Dockerfile .
 docker tag flaskapp bashokku/flaskapp
